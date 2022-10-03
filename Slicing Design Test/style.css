@@ -1,0 +1,180 @@
+@font-face {
+    font-family: NovaBoldItalic;
+    src: url("Proxima Nova/Proxima Nova Bold Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaLight;
+    src: url("Proxima Nova/Proxima Nova Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaRegularItalic;
+    src: url("Proxima Nova/Proxima Nova Regular Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaSemibold;
+    src: url("Proxima Nova/Proxima Nova Semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaSemiboldItalic;
+    src: url("Proxima Nova/Proxima Nova Semibold Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaBlack;
+    src: url("Proxima Nova/ProximaNova-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaBlackIt;
+    src: url("Proxima Nova/ProximaNova-BlackIt.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaBold;
+    src: url("Proxima Nova/ProximaNova-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaExtrabldIt;
+    src: url("Proxima Nova/ProximaNova-ExtrabldIt.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaExtraBold;
+    src: url("Proxima Nova/ProximaNova-Extrabold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaLightItalic;
+    src: url("Proxima Nova/ProximaNova-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaReg;
+    src: url("Proxima Nova/ProximaNova-Reg.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaThin;
+    src: url("Proxima Nova/ProximaNova-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NovaThinIt;
+    src: url("Proxima Nova/ProximaNova-ThinIt.otf") format("opentype");
+}
+
+
+@media (min-width: 769px){
+    .topnav-mobile {
+        display: none;
+    }
+
+    .topnav {
+        background-color: white;
+        overflow: hidden;
+        margin-top: 60px;
+    }
+
+    .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        width: 25%;
+        font-size: 18px;
+        padding: 18px 18px;
+        font-family: NovaBold;
+    }
+
+    .head-container {
+        width: 100%;
+    }
+
+    .content-box {
+        background-color: #f1f6f9;
+        padding: 40px 62px 62px 62px;
+    }
+
+    .head-container-mobile {
+        display: none;
+    }
+
+    .content-box-mobile {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .topnav {
+        display: none;
+    }
+
+    .topnav-mobile {
+        background-color: white;
+        overflow: hidden;
+        margin-top: 60px;
+    }
+
+    .topnav-mobile a {
+        float: left;
+        color: black;
+        text-align: center;
+        width: 25%;
+        font-size: 18px;
+        padding: 18px 18px;
+        font-family: NovaBold;
+    }
+
+    .head-container-mobile {
+        width: 100%;
+    }
+
+    .content-box-mobile {
+        background-color: #f1f6f9;
+        padding: 40px 62px 62px 62px;
+    }
+
+    .head-container {
+        display: none;
+    }
+
+    .content-box {
+        display: none;
+    }
+}
+
+
+}
+
+.bg {
+    background-color: #23123a;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+}
+
+
+h2 {
+    color: black;
+    font-family: NovaBold;
+    font-size: 26px;
+    padding-top: 40px;
+}
+
+.card {
+    background-color: white;
+    font-family: NovaReg;
+    padding: 20px 62px 20px 62px;
+}
+
+.side {
+    display:inline-block;
+}
